@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.vitrina {
+    margin-bottom: 30px;
+}
+
+.object {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.interactive {
+    cursor: pointer;
+    background-color: #d0ffd0;
+}
+
+#addObjectForm {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#addObjectForm input, #addObjectForm button {
+    padding: 10px;
+    margin: 0 5px;
+}
+
+#customObjects .object {
+    background-color: #d0e0ff;
+}

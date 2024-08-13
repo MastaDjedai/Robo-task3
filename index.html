@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вітрина</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Вітрина</h1>
+        
+        <div class="vitrina" id="vitrina1">
+            <h2>Вітрина 1: Статичні об’єкти</h2>
+            <div class="object">Об’єкт 1</div>
+            <div class="object">Об’єкт 2</div>
+            <div class="object">Об’єкт 3</div>
+        </div>
+        
+        <div class="vitrina" id="vitrina2">
+            <h2>Вітрина 2: Інтерактивні об’єкти</h2>
+            <div class="object interactive">Інтерактивний об’єкт 1</div>
+            <div class="object interactive">Інтерактивний об’єкт 2</div>
+            <div class="object interactive">Інтерактивний об’єкт 3</div>
+        </div>
+        
+        <div class="vitrina" id="vitrina3">
+            <h2>Вітрина 3: Додати власний об’єкт</h2>
+            <form id="addObjectForm">
+                <input type="text" id="objectText" placeholder="Назва об’єкта">
+                <button type="submit">Додати</button>
+            </form>
+            <div id="customObjects"></div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
